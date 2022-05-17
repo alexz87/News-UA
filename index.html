@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Oleksandr Zadorozhnii">
+    <title>Дипломна Робота</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="menu">
+        <section class="menu__search">
+            <form>
+                <input type="text" id="search" placeholder="Пошук">
+            </form>
+        </section>
+        
+        <section class="menu__nav">
+            <h3>Меню</h3>
+            <ul>
+                <li><a href="#">Головна</a></li>
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+        </section>
+
+        <section class="menu__info">
+            <h3>Інформація про нас</h3>
+            <div class="card">
+                <img src="img/img-1.png">
+                <div class="card-block">
+                    <p>
+                        Доброго вечора, ми з України:
+                        У війні Росії проти України журналісти цілодобово 
+                        ведуть боротьбу на інформаційному фронті. 
+                        Наша зброя — чесна інформація.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/img-2.jpg">
+                <div class="card-block">
+                    <p>
+                        ЗСУ жартома створили рейтинг найсильніших армій світу: тероборона Києва поки входить у Топ-3. :)
+                    </p>
+                    <button class="btn btn-in-menu">Далі</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu__help">
+            <h3>Допомога</h3>
+            <p>
+                Якщо у Вас є будь які питання, та Ви хочите зв'язатися з нами для їх уточнення, то нижче є всі варіанти зв'язку із нами!
+            </p>
+            <ul>
+                <li><i class="fas fa-envelope"></i><a href="email:admin@alexproger.com">admin@alexproger.com</a></li>
+                <li><i class="fas fa-phone"></i><span>+38 (093) 994 - 73 - 69</span></li>
+                <li>   
+                    <i class="fas fa-home"></i><address><pre>Київ, Україна
+індекс 02094</pre></address>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="main">
+        <section class="first">
+            <button class="btn-show-menu" onclick="showMenu()"><i class="fas fa-bars"></i></button>
+        </section>
+
+        <section class="second">
+            <div class="title">
+                <h3>ЗМІ портал</h3>
+            </div>
+
+            <div class="block-first">
+                <div class="left">
+                    <h1>Робота Вашої мрії ЗСУ</h1>
+                    <h4>наскільки зараз круті зсу</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Vitae repellat libero numquam sequi tempora ipsam eligendi vel repudiandae quos. 
+                        Tempore culpa officia sequi fuga adipisci, assumenda 
+                        perferendis eligendi molestiae natus nulla, saepe quasi nobis vitae excepturi 
+                        repudiandae sapiente ipsa quisquam. Aspernatur iste laborum alias 
+                        recusandae distinctio cum fuga odio quasi?
+                    </p>
+                    <button class="btn block-first__btn">читати далі</button>
+                </div>
+                <div class="right">
+                    <img src="img/img-block-first.jpg" alt="ЗСУ">
+                </div>
+            </div>
+        </section>
+
+        <section class="third">
+            <div class="title">
+                <h3>Останні новини</h3>
+            </div>
+
+            <div class="news">
+                <div class="block">
+                    <div class="left">
+                        <div class="img">
+                            <img src="img/img-block-third-1.png" alt="перша новина">
+                        </div>
+                        <h4>Укрпошта обмежила продаж марки з кораблем та заробила $1 млн</h4>
+                        <p>
+                            Укрпошта призупинила продаж поштової марки 
+                            "Рускій воєнний корабль, іді на**й" у своїх відділеннях. 
+                            Всього було продано більш як 700 000 таких марок (з 1 млн).
+                            Укрпошта вже заробила на цьому більше $1 млн. Половину розкупили за п'ять днів. 
+                            По словам Смелянського, сама марка коштує 23 гривні, але деякі 
+                            спекулянти перепродують її за 3500 грн.
+                        </p>
+                        <button class="btn news-btn">далі</button>
+                    </div>
+                    <div class="right">
+                        <div class="img">
+                            <img src="img/img-block-third-2.jpg" alt="друга новина">
+                        </div>
+                        <h4>Україна обмежує пункти розмитнення авто з ЄС для власних потреб.</h4>
+                        <p>
+                            Розмитнити автівку для власних потреб з країн Євросоюзу за нульового 
+                            мита можна буде лише на шести пунктах пропуску, адже через черги на 
+                            кордоні не можуть проїхати гуманітарні вантажі. "Оформлення нових 
+                            транспортних засобів об'єктивно займає багато часу, через що у 
+                            величезних чергах цілодобово простоюють волонтери з гуманітарними 
+                            вантажами – спорядженням для бійців, продуктами харчування та медикаментами".
+                        </p>
+                        <button class="btn news-btn">далі</button>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="left">
+                        <div class="img">
+                            <img src="img/img-block-third-3.jpg" alt="третя новина">
+                        </div>
+                        <h4>Крилаті ракети й літаки: у ЗСУ розповіли про знищені за добу ворожі повітряні цілі.</h4>
+                        <p>
+                            Зокрема, захисники української держави уразили дев’ять безпілотників окупантів, 
+                            зазначили в командуванні Повітряних сил Збройних сил України. Протягом доби українськими 
+                            військовими уражено 17 повітряних цілей ворога. Так, підрозділи зенітних ракетних військ 
+                            Повітряних сил та Сухопутних військ уразили дев’ять безпілотних літальних апаратів 
+                            оперативно-тактичного рівня (імовірно - "Орлан-10"), три літаки (попередньо - Су-34, Су-35, Су-25) 
+                            та п’ять крилатих ракет.
+                        </p>
+                        <button class="btn news-btn">далі</button>
+                    </div>
+                    <div class="right">
+                        <div class="img">
+                            <img src="img/img-block-third-4.jpg" alt="четверта новина">
+                        </div>
+                        <h4>Україна та Польща створять спільне підприємство, аби "кардинально" збільшити експорт.</h4>
+                        <p>
+                            Україна та Польща підписали меморандум про посилення співробітництва в залізничній сфері, 
+                            згідно якого створять спільне логістичне підприємство двох країн. "Після розв'язання 
+                            росією повномасштабної війни Польща стала ключовим логістичним центром для допомоги Україні. 
+                            Особливо тісна співпраця відбувається на рівні залізниць двох країн, і така взаємодія має бути посилена".
+                            Меморандум передбачає створення спільного логістичного підприємства двох країн. Шмигаль зауважує, 
+                            що це дозволить кардинально збільшити об’єм залізничних перевезень українського експорту 
+                            до ЄС та на світові ринки через Європу.
+                        </p>
+                        <button class="btn news-btn">далі</button>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="left">
+                        <div class="img">
+                            <img src="img/img-block-third-5.jpg" alt="п'ята новина">
+                        </div>
+                        <h4>Відновлення контролю над населеними пунктами та підводні човни РФ в Чорному морі: яка ситуація на півдні України.</h4>
+                        <p>
+                            На Херсонщині, напередодні фейкового референдуму ворог намагався активізуватися. 
+                            Спроби проведення штурмових дій в напрямку Олександрівки та Таврійського успіхів не мали. 
+                            Намагання заволодіти Миколаївкою також виявилися не вдалими. Нанесенням вогневого 
+                            ураження артилерією загальної підтримки угруповання атаки противника відбито. 
+                            Українськими підрозділами з позицій спостережних постів відновлено контроль 
+                            над 8 населеними пунктами Херсонської області.
+                        </p>
+                        <button class="btn news-btn">далі</button>
+                    </div>
+                    <div class="right">
+                        <div class="img">
+                            <img src="img/img-block-third-6.jpg" alt="шоста новина">
+                        </div>
+                        <h4>Тримають стрій: українські військові знищили 17 повітряних цілей російських окупантів.</h4>
+                        <p>
+                            23 квітня уражено 17 повітряних цілей російських окупантів. Військово-транспортна, 
+                            винищувальна, бомбардувальна, штурмова авіація Повітряних Сил продовжує виконання 
+                            завдань у повітряному просторі України, здійснює підтримку та прикриття наземних військ, 
+                            наносить вогневі ураження по позиціях російських окупаційних військ. А протиповітряна 
+                            оборона держави продовжує нищити ворога у повітрі. Підрозділи зенітних ракетних військ 
+                            Повітряних Сил та Сухопутних військ уразили дев’ять безпілотних літальних апаратів 
+                            оперативно-тактичного рівня, три літаки та п’ять крилатих ракет.
+                        </p>
+                        <button class="btn news-btn">далі</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="fourth">
+            <div class="block">
+                <img src="img/img-announcement-1.jpg" alt="перший анонс">
+                <h4>Доктор Стрендж 2: У мультивсесвіті божевілля.</h4>
+                <p>Режисер: Сем Реймі. Прем'єра: 5 травня 2022 року.</p>
+                <button class="btn ann-btn">деталі</button>
+            </div>
+            <div class="block">
+                <img src="img/img-announcement-2.png" alt="другий анонс">
+                <h4>Тор 4: Любов і грім.</h4>
+                <p>Режисер: Тайка Вайтіті. Прем'єра: 7 липня 2022 року.</p>
+                <button class="btn ann-btn">деталі</button>
+            </div>
+            <div class="block">
+                <img src="img/img-announcement-3.jpg" alt="третій анонс">
+                <h4>Чорна Пантера 2: Ваканда назавжди.</h4>
+                <p>Режисер: Райан Куглер. Прем'єра: 10 листопада 2022 року.</p>
+                <button class="btn ann-btn">деталі</button>
+            </div>
+            <div class="block">
+                <img src="img/img-announcement-4.jpg" alt="четвертий анонс">
+                <h4>Капітан Марвел 2.</h4>
+                <p>Режисер: Ниа Да Коста. Прем'єра: 16 лютого 2023 року.</p>
+                <button class="btn ann-btn">деталі</button>
+            </div>
+            <div class="block">
+                <img src="img/img-announcement-5.jpg" alt="п'ятий анонс">
+                <h4>Вартові Галактики 3.</h4>
+                <p>Режисер: Джеймс Ганн. Прем'єра: 4 травня 2023 року.</p>
+                <button class="btn ann-btn">деталі</button>
+            </div>
+        </section>
+
+        <section class="fifth">
+            <div class="title">
+                <h3>Інформація</h3>
+            </div>
+            <div class="block">
+                <div class="left">
+                    <div class="icon"><i class="fas fa-users"></i></div>
+                    <div class="text">
+                        <h4>Багато клієнтів</h4>
+                        <p>
+                            Велика кількість клієнтів 
+                            обирає нас, тому що ми завжди 
+                            тримаємо руку на пульсі всіх подій
+                        </p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="icon"><i class="fab fa-youtube"></i></div>
+                    <div class="text">
+                        <h4>Велика аудиторія YouTube</h4>
+                        <p>
+                            Велика фан база у YouTube. Ви завжди зможете знайти всю інформацію, з усього світу!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://kit.fontawesome.com/efdec6ffc9.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
